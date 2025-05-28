@@ -29,6 +29,7 @@ export default function Home() {
           height={800}
           className="w-full h-auto"
           priority
+          style={{borderRadius: "7px"}}
         />
       </div>
 
@@ -100,9 +101,10 @@ export default function Home() {
         <Image
           src="/perfil.png"
           alt="profile pic"
-          width={800}
+          width={600}
           height={300}
           className="w-full max-w-[600px] h-auto"
+          style={{borderRadius: "7px"}}
         />
       </div>
 
